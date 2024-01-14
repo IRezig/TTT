@@ -23,6 +23,6 @@ class Square(Rectangle):
 
 
 rectangle = Rectangle(5, 4)
-square = Square(5, 5)
+square = Square(4, 4)
 print(rectangle.calc_area())
 print(square.calc_area())
