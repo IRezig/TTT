@@ -1,6 +1,9 @@
 from typing import TypeVar
 
-T = TypeVar("T")
+# TypeVar is a special type of variable that works with Generics
+# Generics are a way to make your code more reusable
+
+T = TypeVar("T")  # Can be anything
 
 
 def add(a: T, b: T) -> T:
